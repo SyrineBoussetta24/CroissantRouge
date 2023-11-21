@@ -15,28 +15,20 @@ const CreateOrder = () => {
         <Card>
           <CardHeader></CardHeader>
           <p className={classes.title}>
+            {' '}
             <Icon icon='clarity:document-line' />
-            Nouveau Colis
+            Qui sommes nous ?
           </p>
         </Card>
-        <Card className={classes.card}>
+        <Card>
           <CardHeader></CardHeader>
-          <div className={classes.h1}>Adresse Email :</div>
-          <div className={classes.h2}>
-            <TextField id='outlined-basic' label='Adresse Email ' variant='outlined' />
+          <div className={classes.c}>Le Croissant Rouge Tunisien :</div>
+          <div>
+            est une organisation d’intérêt public, créée le 7 octobre 1956, et reconnue par décret du 6 mai 1957 comme
+            organisation bénévole d’aide et de secours auxiliaire des pouvoirs publics dans le domaine humanitaire,
+            conformément aux Conventions de Genève de 1949 et ses protocoles additionnels. Le Croissant Rouge Tunisien
+            est devenu membre du mouvement International de la Croix Rouge et du Croissant Rouge le 13 septembre 1957.
           </div>
-          <div className={classes.h1}>
-            <label className='form-label'>Mot de passe :</label>
-          </div>
-          <div className={classes.h2}>
-            <TextField id='outlined-basic' label='Mot de passe ' variant='outlined' />
-          </div>
-          <Stack className={classes.button} direction='row' spacing={2}>
-            <Button variant='contained' color='secondary'>
-              <Icon icon='ooui:check' />
-              Confirmer
-            </Button>
-          </Stack>
         </Card>
       </Grid>
     </Grid>

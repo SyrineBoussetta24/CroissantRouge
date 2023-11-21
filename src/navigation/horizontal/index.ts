@@ -8,12 +8,12 @@ const navigation = (): HorizontalNavItemsType => [
     icon: 'mdi:home-outline'
   },
   {
-    title: 'Liste des colis',
+    title: 'Qui Sommes Nous',
     path: '/orders',
     icon: 'mdi:email-outline'
   },
   {
-    title: 'Nouveau colis',
+    title: 'Nos Principes',
     path: '/orders/create',
     icon: 'mdi:email-outline'
   },
@@ -21,12 +21,12 @@ const navigation = (): HorizontalNavItemsType => [
     path: '/acl',
     action: 'read',
     subject: 'acl-page',
-    title: 'Les Gouvernorats',
+    title: 'Nos Comités',
     icon: 'mdi:shield-outline'
   },
   {
-    title: 'livreurs',
-    path: '/livreur/livreur',
+    title: 'Contact',
+    path: '/Contact/Contact',
     icon: 'mdi:email-outline'
   }
 ]

@@ -47,28 +47,17 @@ const ACLPage = () => {
       <Grid item md={6} xs={12}>
         <Card className={classes.card}>
           <CardHeader></CardHeader>
-          <div className={classes.b}>LES LIVREURS</div>
+          <div className={classes.b}>Contactez nous </div>
         </Card>
         <Card className={classes.card}>
           <div className={classes.button}>
             <Stack className={classes.button} direction='row' spacing={2}>
               <Button variant='contained' color='secondary'>
-                <Icon icon='ooui:check' />
-                Confirmer
+                contactez nous
               </Button>
             </Stack>
           </div>
         </Card>
-        <div style={{ height: 400, width: '100%' }}>
-          <DataGrid
-            rows={rows}
-            columns={columns}
-            pageSize={5}
-            rowsPerPageOptions={[5]}
-            checkboxSelection
-            className={classes.card}
-          />
-        </div>
       </Grid>
     </Grid>
   )

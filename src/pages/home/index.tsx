@@ -20,21 +20,20 @@ const Home = () => {
       <Grid item xs={12}>
         <Card>
           <CardHeader></CardHeader>
-          <div className={classes.b}>Bienvenue à GO DELIVERY </div>
-          <div className={classes.home}>Connectez vous à votre compte </div>
+          <div className={classes.b}>Bienvenue au Croissant Rouge </div>
 
           <Stack className={classes.button} direction='row' spacing={2}>
             <Button type='button' onClick={() => router.push('/orders')} variant='contained' color='secondary'>
               <Icon icon='ooui:article-redirect-rtl' />
-              liste des colis{' '}
+              Nos principes{' '}
             </Button>
             <Button type='button' onClick={() => router.push('/orders/create')} variant='contained' color='secondary'>
               <Icon icon='ooui:article-redirect-rtl' />
-              nouveau colis{' '}
+              Qui sommes nous ?{' '}
             </Button>
             <Button type='button' onClick={() => router.push('/acl/')} variant='contained' color='secondary'>
               <Icon icon='ooui:article-redirect-rtl' />
-              Gouvernorat{' '}
+              Nos comités{' '}
             </Button>
             <Button
               type='button'
@@ -43,7 +42,7 @@ const Home = () => {
               color='secondary'
             >
               <Icon icon='ooui:article-redirect-rtl' />
-              Les livreurs{' '}
+              Contact{' '}
             </Button>
           </Stack>
           <div className={classes.avis}>

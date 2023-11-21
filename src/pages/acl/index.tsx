@@ -46,10 +46,9 @@ const ACLPage = () => {
       <Grid item md={6} xs={12}>
         <Card className={classes.card}>
           <CardHeader></CardHeader>
-          <div className={classes.b}>LISTE DES GOUVERNORATS</div>
+          <div className={classes.b}>Nos comités</div>
         </Card>
         <Card className={classes.card}>
-          <div className={classes.div}>les Gouvernorats :</div>
           <div className={classes.button}>
             <Stack direction='row' spacing={2}>
               <Button variant='outlined'>
