@@ -1,0 +1,52 @@
+.d {
+  width: 500px;
+  color: rgb(63, 56, 56);
+  border-radius: 0.1335rem;
+  padding-top: 20px;
+  margin-left: 18px;
+}
+.A {
+  width: 1000px;
+  color: black;
+  margin-left: 18px;
+}
+.list {
+  color: rgb(243, 130, 18);
+  font-weight: bolder;
+}
+.c {
+  font-weight: bolder;
+  margin-left: 18px;
+  color: rgb(66, 19, 19);
+  font-size: 25px;
+  text-decoration: underline;
+}
+.p {
+  font-weight: bolder;
+  margin-left: 18px;
+  color: rgb(66, 19, 19);
+  font-size: 25px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.v {
+  width: 500px;
+  color: rgb(114, 110, 110);
+  border-radius: 0.1335rem;
+  padding-top: 20px;
+  margin-left: 18px;
+}
+.button {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  color: rgb(243, 130, 18);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding-left: 30px;
+  margin-top: 10px;
+}
